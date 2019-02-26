@@ -254,3 +254,57 @@ footer{
     bottom:0;
     left:0;
 }
+
+
+@media screen and (max-width: 980px){
+    /*wanted this to mimic the screen shot but ran out of time,
+    couldnt quite get the nav bar to no bleed and overlap into
+    the content div*/
+    #content{ 
+        width:80%;
+
+    }
+    #portimages{
+        display:inline-block;
+        clear:both;
+    }
+
+    #headerContainer{
+        width:50%;
+    }
+
+    header{
+        width:50%;
+        margin:auto;
+    }
+
+    nav{
+        position:absolute;
+        margin:auto;
+        text-align:center;
+        width:80%;
+
+    }
+
+    .form{
+        width:80%%;
+    }
+
+    input{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    /*this would ideally continue to collapse the content and nav bar
+    while keeping everything inline, whithout stacking anything yet*/
+
+}
+
+
+@media screen and (max-width:640px){
+    /*this would collapse to the size of a phone stacking the header on top of 
+    the navbar and also stacking the image in the contact or portfolio on top of eachother 
+    with the text and rest of the content appearing below*/
+
+}
