@@ -259,6 +259,10 @@ body {
     couldnt quite get the nav bar to no bleed and overlap into
     the content div*/
 
+  html {
+    overflow-x: hidden;
+  }
+
   header {
     width: 50%;
   }
@@ -352,7 +356,8 @@ body {
   }
   #content {
     margin-top: 200px;
-    width: 100vw;
+    margin-left: 0px;
+    width: 100%;
   }
 
   img,
@@ -360,7 +365,7 @@ body {
     clear: both;
     float: left;
 
-    width: 100%;
+    width: 80%;
     margin-right: 40px;
   }
   .link {
