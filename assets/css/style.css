@@ -250,7 +250,10 @@ img,
   display: block;
   margin-left: 50%;
 }
-
+html,
+body {
+  width: 100vw;
+}
 @media screen and (max-width: 980px) {
   /*wanted this to mimic the screen shot but ran out of time,
     couldnt quite get the nav bar to no bleed and overlap into
@@ -349,7 +352,7 @@ img,
   }
   #content {
     margin-top: 200px;
-    width: 100%;
+    width: 100vw;
   }
 
   img,
@@ -379,4 +382,33 @@ img,
   /*this would collapse to the size of a phone stacking the header on top of 
     the navbar and also stacking the image in the contact or portfolio on top of eachother 
     with the text and rest of the content appearing below*/
+  #content {
+    display: flex;
+  }
+  img,
+  .textBlock {
+    clear: both;
+    float: left;
+    margin-top: 200px;
+    width: 150%;
+    margin-right: 40px;
+    margin-left: -150px;
+  }
+  img {
+    border: 2px solid #777777;
+  }
+  .link {
+    font-size: 35px;
+    margin-top: 15px;
+    padding: 0px;
+  }
+  #trivia {
+    margin-left: 30%;
+  }
+  #gif {
+    margin-left: 35%;
+  }
+  #train {
+    margin-left: 30%;
+  }
 }
