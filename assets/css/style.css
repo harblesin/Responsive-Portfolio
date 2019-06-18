@@ -391,11 +391,14 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  /*this would collapse to the size of a phone stacking the header on top of 
-    the navbar and also stacking the image in the contact or portfolio on top of eachother 
-    with the text and rest of the content appearing below*/
+
   #content {
     display: flex;
+    margin-right:10px;
+  }
+  .form{
+      height:10%;
+      width:100%;
   }
   img,
   .textBlock {
@@ -424,11 +427,13 @@ body {
     margin-left: 30%;
   }
   #divider {
-    float: left;
+    float: right;
     margin-top: 50px;
     width: 100%;
   }
-  #contact {
-    height: 10px;
+  #contact{
+      width:100%;
+      float:right;
   }
+  
 }
